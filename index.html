@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/home/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <title>Homepage</title>
+</head>
+<body>
+  <div class="container">
+    <!-- Profile Section -->
+    <div class="profile">
+        <img src="/public/asset/Tiger.png" alt="Profile Image" class="profile-image">
+        <span class="profile-name" id="user-fullName"></span>
+    </div>
+
+
+    <!-- Game Title -->
+    <div class="gametitle-wrap">
+      <img src="/public/asset/Tiger.png" alt="" class="title-image">
+      <h1 class="game-title">ANIMEPLUS +</h1>
+      <img src="/public/asset/Turtle.png" alt="" class="title-image">
+    </div>
+
+    <!-- Menu Buttons -->
+    <div class="menu-buttons">
+
+          <button class="menu-button player2" id="play-against-player">
+            VS PLAYER
+          </button>
+
+          <button class="menu-button computer" id="play-against-computer">
+             VS COMPUTER
+          </button>
+
+        <a href="/highscore/index.html">
+          <button class="menu-button leaderboard">
+            LEADERBOARD
+        </button>
+        </a>
+
+        <a href="/Auth/login.html">
+        <button class="menu-button login" id="login-button">
+            LOGIN
+        </button>
+      </a>
+        <button class="menu-button logout" id="logout-btn" style="display: none">
+            LOGOUT
+        </button>
+    </div>
+</div>
+
+<script src="/home/script.js"></script>
+
+</body>
+</html>
